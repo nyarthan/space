@@ -1,0 +1,4 @@
+{
+  "*": "biome format --write --no-errors-on-unmatched",
+  "*.ts": "oxlint --type-aware"
+}
