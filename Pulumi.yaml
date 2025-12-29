@@ -1,0 +1,7 @@
+name: space
+
+runtime:
+  name: nodejs
+  options:
+    typescript: false
+    packagemanager: pnpm

@@ -11,7 +11,7 @@
         packages = [
           pkgs.nodejs_24
           pkgs.pnpm
-          pkgs.pulumi
+          (pkgs.pulumi.withPackages (p: [ p.pulumi-nodejs ]))
         ];
 
         devshell.motd = "";
